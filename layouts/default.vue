@@ -3,8 +3,8 @@
         <header>
             <TheHeader />
         </header>
-        <main class="container">
-            <NuxtPage />
+        <main>
+            <slot></slot>
         </main>
         <footer>
             <TheFooter />

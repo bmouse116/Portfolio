@@ -12,3 +12,41 @@
     width: 100%;
     margin: 0 auto;
 }
+
+
+.const {
+    color: var(--primitive-indigo-500);
+    font-variant-ligatures: none;
+}
+
+.name {
+    color: var(--primitive-teal-400);
+}
+
+.operator {
+    color: var(--theme-heading-foreground);
+    font-variant-ligatures: none;
+}
+
+.scope {
+    color: var(--primitive-yellow-500);
+}
+
+.value {
+    color: var(--primitive-indigo-200);
+}
+
+.value-blue {
+    color: var(--primitive-indigo-400);
+}
+
+.type {
+    color: var(--primitive-teal-600);
+}
+
+.blocks {
+    color: var(--primitive-purple-500);
+}
+.blocks-if {
+    color: var(--primitive-purple-400);
+}

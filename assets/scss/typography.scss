@@ -3,7 +3,7 @@ $font-family: "FiraCode-Bold";
 $second-family: "FiraCode-Medium";
 $third-family: "FiraCode-Regular";
 h1 {
-    font-family: $font-family, sans-serif;
+    font-family: $second-family, sans-serif;
     font-weight: 450;
     font-size: 60px;
 }
@@ -18,7 +18,7 @@ h3 {
     font-size: 36px;
 }
 h4 {
-    font-family: $font-family, sans-serif;
+    font-family: $third-family, sans-serif;
     font-weight: 450;
     font-size: 30px;
 }
@@ -43,8 +43,24 @@ button {
     line-height: 140%;
 }
 
+p {
+    font-family: $third-family, sans-serif;
+}
+
+.body-sm {
+    line-height: 140%;
+    font-size: 14px;
+    font-family: $third-family;
+}
+
 .body-md {
     line-height: 150%;
     font-size: 16px;
+    font-family: $third-family;
+}
+
+.body-lg {
+    line-height: 150%;
+    font-size: 18px;
     font-family: $third-family;
 }

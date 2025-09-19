@@ -33,7 +33,8 @@ const mainTabs: TabValue[] = [Tabs.Hello, Tabs.About, Tabs.Projects]
     display: flex;
 
     .title {
-        width: 311px;
+        max-width: 311px;
+        width: 100%;
         padding: 16px 24px;
         text-align: left;
     }

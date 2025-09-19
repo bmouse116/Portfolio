@@ -84,4 +84,17 @@ defineProps({
     color: var(--primitive-slate-500);
     cursor: not-allowed;
 }
+
+.black {
+    background: var(--primitive-grey-950);
+    border: 1px solid var(--theme-theme-stroke);
+    border-radius: 8px;
+    padding: 6px;
+    width: 48px;
+    height: 30px;
+}
+
+.transparent {
+    background-color: transparent;
+}
 </style>
